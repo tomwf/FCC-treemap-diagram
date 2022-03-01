@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  display: inline-block;
+  border-right: 1px solid black;
+  padding: 0 .5em;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link {
+  color: blue;
+}
+
+#chart {
+  position: relative;
+}
+
+#tooltip {
+  position: absolute;
+  background-color: rgba(255, 255, 204, 0.95);
+  border-radius: 4px;
+  box-shadow: 0 0 4px darkGray;
+  padding: .5em;
+  font-size: .75rem;
+}
+
+#tooltip p {
+  padding: 0;
+  margin: .25em 0;
+}
